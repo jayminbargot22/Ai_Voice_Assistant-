@@ -114,6 +114,7 @@ You can contact the developer via GitHub Issues or Discussions.
 ## Advantages & Uses 💡💡
 
 ✅ Advantages
+
 [1] Hands-Free Operation
 Enables users to perform basic tasks without touching the keyboard or mouse—ideal for multitasking or accessibility.
 
@@ -138,7 +139,9 @@ Responds with natural-sounding voice output, enhancing the interactivity.
 [8] Cross-Platform Compatibility
 Runs on Windows, macOS, and Linux with minor adjustments.
 
+
 🛠️ Uses
+
 [1] Personal Productivity
 Open frequently used websites like Gmail, YouTube, or Google Search using voice commands.
 
