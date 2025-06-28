@@ -27,14 +27,16 @@ VoiceAssistant/
 └── requirements.txt # Required Python packages
 
 
-## VOICE ASSISTANT - INSTALLATION 🤖🤖
+
+
+## 🤖 VOICE ASSISTANT - INSTALLATION 
 
 
 Follow the steps below to install and run the Python Voice Assistant on your computer.
 
 ----------------------------------
 STEP 1: CLONE THE GITHUB REPOSITORY
-----------------------------------
+
 Open your terminal or command prompt and run:
 
 git clone https://github.com/jayminbaargot22/VoiceAssistant-Py.git
@@ -43,7 +45,7 @@ cd VoiceAssistant-Py
 
 ----------------------------------
 STEP 2: INSTALL PYTHON
-----------------------------------
+
 Make sure Python 3.8 or later is installed.
 
 Check your Python version with:
@@ -54,7 +56,7 @@ https://www.python.org/downloads/
 
 ----------------------------------
 STEP 3: CREATE A VIRTUAL ENVIRONMENT (Optional but Recommended)
-----------------------------------
+
 Create:
 python -m venv venv
 
@@ -68,7 +70,7 @@ source venv/bin/activate
 
 ----------------------------------
 STEP 4: INSTALL REQUIRED PACKAGES
-----------------------------------
+
 If you have a requirements.txt file:
 pip install -r requirements.txt
 
@@ -84,20 +86,20 @@ pip install path\to\downloaded\pyaudio.whl
 
 ----------------------------------
 STEP 5: SET UP YOUR MICROPHONE
-----------------------------------
+
 Make sure your system microphone is enabled and accessible.
 This assistant uses your default input device to listen.
 
 ----------------------------------
 STEP 6: RUN THE ASSISTANT
-----------------------------------
+
 Start the program with:
 
 python voice_assistant.py
 
 ----------------------------------
 STEP 7: TRY THESE VOICE COMMANDS
-----------------------------------
+
 - open youtube
 - open whatsapp
 - what's the time
@@ -109,6 +111,46 @@ STEP 7: TRY THESE VOICE COMMANDS
 
 Need Help?
 You can contact the developer via GitHub Issues or Discussions.
+
+
+
+
+## 🚨🚨 REQUIREMENTS - VoiceAssistant 
+
+Below are the required Python packages for running the Voice Assistant:
+
+1. SpeechRecognition
+2. pyttsx3
+3. pyaudio
+
+---------------------------
+To install these packages:
+---------------------------
+
+Option 1: Using requirements.txt (if available)
+-----------------------------------------------
+pip install -r requirements.txt
+
+Option 2: Manual installation
+-----------------------------
+pip install SpeechRecognition
+pip install pyttsx3
+pip install pyaudio
+
+---------------------------
+Important Note for Windows:
+---------------------------
+If you face issues installing `pyaudio`, download a pre-built .whl (wheel) file from:
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+
+Then install it using:
+pip install path\to\downloaded\pyaudio.whl
+
+---------------------------
+Check installed versions with:
+---------------------------
+pip freeze
 
 
 ## Advantages & Uses 💡💡
